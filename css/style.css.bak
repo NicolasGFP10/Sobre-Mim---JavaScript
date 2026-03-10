@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #7ed85b;
+}
+
+#slideshow-container {
+    width: 80%;
+    max-width: 425px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    border: 15px;
+    border-style: solid;
+}
+
+    #slideshow-container img {
+        width: 100%;
+        height: auto;
+        display: none;
+    }
+
+#slideshow-container img:first-child {
+    display: block;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+    border-radius: 100%;
+}
+
+#corpo {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    margin: 10px;
+    padding: 10px;
+    width: 985px;
+    height: 585px;
+    background-image: url(../images/imgCorpo.png);
+}
+
+#playButton {
+    position: absolute;
+    background-image: url(../images/botao.png);
+    width: 200px;
+    height: 200px;
+    margin-bottom: 46%;
+    margin-left: 72%;
+}
+
+#playButton:active {
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+
